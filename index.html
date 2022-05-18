@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Recap Assignment</title>
 </head>
 <body>
-    
+    <div id="nav-bar">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    <hr>
+
+    <div id="description">
+        <h1>HTML Recap</h1>
+        <p>This page displays a recap of various HTMl features taught in Module #5.</p>
+    </div>
+
+    <br>
+
+    <div>
+        <form action="">
+            <fieldset>
+                <legend></legend>
+                <p>
+                    <label for="">Favorite Coding Language:<input type="text" placeholder="html"></label>
+                </p>
+                <p>
+                    <label for="">Favorite html tag:
+                        <select name="html-tag" id="html-tag">
+                            <option value="form">Form</option>
+                            <option value="input">Input</option>
+                            <option value="div">Div</option>
+                            <option value="iframe">iFrame</option>
+                            <option value="nav">Nav</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <h4>Do you like html?</h4>
+                    <p>
+                        <input type="radio" name="do-you-like" id="yes">
+                        <label for="">Yes</label>
+                        <input type="radio" name="do-you-like" id="no">
+                        <label for="">No</label>
+                    </p>
+                </p>
+                <p>
+                    <label for="">Contact email:<input type="email" placeholder="email@email.email"></label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <h1>Additional Information</h1>
+        <p>If you like what you see and want to learn more, watch this video.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W-6OY9eI3hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
